@@ -1,0 +1,4 @@
+# Projeto + ferramentas de desenvolvimento
+-e .
+pytest>=8.0.0
+ollama

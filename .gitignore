@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Data (large files — use HuggingFace Hub or Zenodo links instead)
+data/
+images/
+relevant_images/
+*.csv
+*.jsonl
+*.json
+!requirements*.txt
+
+# Model outputs
+outputs/
+eval_results*/
+results/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+*.log
+nohup.out
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
